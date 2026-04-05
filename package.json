@@ -2,6 +2,7 @@
   "name": "assignment-workspace",
   "private": true,
   "scripts": {
+    "postinstall": "npm run install:app",
     "dev": "npm --prefix finance-dashboard run dev",
     "build": "npm --prefix finance-dashboard run build",
     "preview": "npm --prefix finance-dashboard run preview",

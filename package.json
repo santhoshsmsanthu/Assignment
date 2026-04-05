@@ -1,0 +1,10 @@
+{
+  "name": "assignment-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix finance-dashboard run dev",
+    "build": "npm --prefix finance-dashboard run build",
+    "preview": "npm --prefix finance-dashboard run preview",
+    "install:app": "npm --prefix finance-dashboard install"
+  }
+}
